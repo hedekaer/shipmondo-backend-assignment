@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShipmondoTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5f334f1dba643ffdffecb0a31447cf1e81b9c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9a063f921a19a15af554212fc17c2f6e54d9c37")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShipmondoTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShipmondoTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
