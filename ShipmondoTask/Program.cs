@@ -7,8 +7,10 @@ db.Database.EnsureCreated();
 
 Console.WriteLine("=== Shipmondo Shipment CLI ===");
 
-// Replace with your actual sandbox API key
-var apiKey = "3f364daa-5abe-4852-bbd4-1370e0db6274:9f8ae772-2f68-4958-923e-bacf15616681";
+
+//Use environment variable if set, otherwise use the public sandbox test key
+string apiKey = Environment.GetEnvironmentVariable("API_KEY") ?? "3f364daa-5abe-4852-bbd4-1370e0db6274:9f8ae772-2f68-4958-923e-bacf15616681";
+
 var service = new ShipmondoService(db, apiKey);
 Console.WriteLine(DateTime.Now);
 while (true)
